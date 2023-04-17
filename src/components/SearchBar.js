@@ -15,12 +15,19 @@ function SearchBar({ onSubmit  }){
     const handleChange = (event)=>{
         setTerm(event.target.value);
     }
+    const clear=(event)=>{
+        event.preventDefault();
+        setTerm('')
+        onSubmit(term)
+    }
 
     return <div className='search-bar'>
         <form onSubmit={handleFormSubmit}>
-           <label>Enter Search term</label>
+           <label id='lab'>Enter Search term &nbsp;</label>       
            <input value={term} onChange={handleChange}/>
+           
         </form>
+        <button onClick={clear}>Clear</button>
         
        
     </div>;
