@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/imagesearch-react/static/css/main.34ee2c20.css",
+    "main.js": "/imagesearch-react/static/js/main.8b7c1067.js",
+    "index.html": "/imagesearch-react/index.html",
+    "main.34ee2c20.css.map": "/imagesearch-react/static/css/main.34ee2c20.css.map",
+    "main.8b7c1067.js.map": "/imagesearch-react/static/js/main.8b7c1067.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34ee2c20.css",
+    "static/js/main.8b7c1067.js"
+  ]
+}
